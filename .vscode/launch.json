@@ -1,0 +1,68 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "npm test",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm test-db",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test-db"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm test-login",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test-login"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm test-classes",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test-classes"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm test-session-codes",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test-session-codes"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm test-class-sessions",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "test-class-sessions"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      },
+      {
+        "name": "npm start",
+        "request": "launch",
+        "runtimeArgs": ["run-script", "start"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "cwd": "${workspaceFolder}/backend",
+        "type": "node"
+      }
+    ]
+  }
